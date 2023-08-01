@@ -1,0 +1,33 @@
+body{
+    background-color: blueviolet;}
+    .spuc{
+        display: block;
+        height: 360px;
+        width: 360px;
+        background-position: 0,0;
+    }
+    .spuc:hover{
+background-position: 0,-240;
+    }
+    .spuc:active{
+        background-position: 0,-480;
+    }
+
+  select{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    color:blue;
+    vertical-align: top;
+    text-align: center;
+    padding-left:10px ;
+    padding-right: 15px;
+  }
+  select:hover{
+    color: black;
+  }
+  select:active{
+    background-color: rgb(79, 72, 117);
+    cursor: pointer;
+    
+  }
+  
